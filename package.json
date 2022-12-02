@@ -1,0 +1,28 @@
+{
+  "name": "thelounge-plugin-hover-spoiler",
+  "version": "1.0.0",
+  "author": "dgw",
+  "license": "ISC",
+  "description": "Simple plugin for The Lounge that adds CSS to reveal spoilers (same fg & bg color) on hover",
+  "homepage": "https://github.com/dgw/thelounge-plugin-hover-spoiler#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgw/thelounge-plugin-hover-spoiler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dgw/thelounge-plugin-hover-spoiler/issues"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "hover-spoiler.css"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "thelounge": {
+    "name": "Hover Spoilers",
+    "type": "plugin",
+    "supports": ">=4.3.0"
+  }
+}
