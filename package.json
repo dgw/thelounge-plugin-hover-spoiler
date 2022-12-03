@@ -25,5 +25,9 @@
     "name": "Hover Spoilers",
     "type": "plugin",
     "supports": ">=4.3.0"
-  }
+  },
+  "keywords": [
+    "thelounge",
+    "thelounge-plugin"
+  ]
 }
